@@ -18,7 +18,7 @@ TO_NAME: (optional) Cosmetic name of destination email recipient
 TO_EMAIL: Destination email address (required if TO_DOMAIN is not set)  
 TO_DOMAIN: Destination domain for wildcard recipients (required if TO_EMAIL is not set)  
 
-~~~  
+---  
 
 ## Contact Info & Status  
 
