@@ -1,6 +1,8 @@
 # flowroute-sms-email-proxy  
 
-## Options:  
+## Example Usage:
+
+    TO_DOMAIN=fredlackey.com SMTP_PASS=testpass SMTP_USER=testuser node ./server.js
 
 ## General Settings  
 NODE_PORT: (default 3000)  
