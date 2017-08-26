@@ -26,7 +26,9 @@
         -e SMTP_HOST=smtp.batcave.com 
         fredlackey/flowroute-proxy  
 
-## General Settings  
+## Settings  
+
+### General Settings  
 NODE_PORT: (default 3000)  
 MOCK_DOMAIN: (default flowroute.com) Placeholder domain of mock sending email address  
 
