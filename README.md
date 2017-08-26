@@ -43,7 +43,7 @@ TO_EMAIL: Destination email address (required if TO_DOMAIN is not set)
 TO_DOMAIN: Destination domain for wildcard recipients (required if TO_EMAIL is not set)  
 
 #### `TO_DOMAIN` vs `TO_EMAIL` Settings  
-In most scenarios, the `TO_EMAIL` is desired.  When used, all incoming SMS messages will be sent to this one single address.  The `TO_DOMAIN` setting is used for "wildcard forwarding" or "catchall" domains and is helpful when sorting email messages by sender.  When used, all messages will be sent to a ficticous email address at that domain.  It is your responsibility to ensure every possible email address at that domain is received.  In the examples above, when using the `TO_DOMAIN` (as shown in the first examples) an SMS message sent to `14075551212` will be sent via email to `14075551212@batmail.com`.  
+In most scenarios, the `TO_EMAIL` is desired.  When used, all incoming SMS messages will be sent to this one single address.  The `TO_DOMAIN` setting is used for "wildcard forwarding" or "catchall" domains and is helpful when sorting email messages by sender.  When used, all messages will be sent to a fictitious email address at that domain.  It is your responsibility to ensure every possible email address at that domain is received.  In the examples above, when using the `TO_DOMAIN` (as shown in the first examples) an SMS message sent to `14075551212` will be sent via email to `14075551212@batmail.com`.  
 
 ---  
 
