@@ -6,8 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Fred Lackey <fred.lackey@gmail.com>",
-  "license": "ISC",
+  "author": {
+    "name": "Fred Lackey",
+    "email": "fred.lackey@gmail.com",
+    "url": "http://www.fredlackey.com"
+  },
+  "bugs": {
+    "url": "https://github.com/FredLackey/flowroute-sms-email-proxy.git/issues",
+    "email": "fred.lackey@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FredLackey/flowroute-sms-email-proxy.git"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
