@@ -34,7 +34,6 @@ function sendMessage(data, next){
     var from        = [ data.from, data.to ].join('-');
     var fromAddress = from + ' <' + from + '@' + MOCK_DOMAIN + '>';
 
-    //var date        = moment().locale('en').toString('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
     var date        = moment().format('YYYY-MM-DD HH:mm:ss [GMT]ZZ');
     var subject     = [ data.from, data.to ].join('-') + ' @ ' + date;
 
