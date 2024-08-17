@@ -1,6 +1,8 @@
-FROM node:6-alpine
+FROM node:18-alpine
 
-MAINTAINER Fred Lackey <fred.lackey@gmail.com>
+LABEL maintainer="Fred Lackey fred.lackey@gmail.com"
+LABEL description="Flowroute Proxy Server"
+LABEL version="1.0.4"
 
 RUN mkdir -p /var/www
 
